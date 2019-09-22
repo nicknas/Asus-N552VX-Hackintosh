@@ -1,174 +1,182 @@
-54:702  0:682  Found BIOS RSDP at F0070
-54:702  0:000  Printing ACPI tables from RSDP F0070 ...
-54:702  0:000   F0070: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
-54:702  0:000    (Xsdt: 76A8B0A8, Rsdt: 76A8B028)
-54:702  0:000    76A8B0A8: 'XSDT', 'Notebook', Rev: 1, Len: 212
-54:702  0:000    76A8B028: 'RSDT', 'Notebook', Rev: 1, Len: 124
-54:702  0:000    Tables in Xsdt: 22
-54:702  0:000    0. 76AB1110: 'FACP', 'Notebook', Rev: 5, Len: 268
-54:702  0:000        (Dsdt: 76A8B210, Facs: 77325F80, XDsdt: 76A8B210, XFacs: 0)
-54:702  0:000        76A8B210: 'DSDT', 'Notebook', Rev: 2, Len: 155390
-54:704  0:002        77325F80: 'FACS', Ver: 2, Len: 64
-54:704  0:000    1. 76AB1220: 'APIC', 'Notebook', Rev: 3, Len: 188
-54:704  0:000    2. 76AB12E0: 'FPDT', 'Notebook', Rev: 1, Len: 68
-54:704  0:000    3. 76AB1328: 'FIDT', 'Notebook', Rev: 1, Len: 156
-54:704  0:000    4. 76AB13C8: 'MCFG', 'Notebook', Rev: 1, Len: 60
-54:704  0:000    5. 76AB1408: 'HPET', 'Notebook', Rev: 1, Len: 56
-54:704  0:000    6. 76AB1440: 'SSDT', 'SataTabl', Rev: 1, Len: 789
-54:704  0:000    7. 76AB1758: 'ECDT', 'Notebook', Rev: 1, Len: 193
-54:704  0:000    8. 76AB1820: 'LPIT', 'SKL', Rev: 1, Len: 148
-54:704  0:000    9. 76AB18B8: 'SSDT', 'sensrhub', Rev: 2, Len: 584
-54:704  0:000    10. 76AB1B00: 'DBGP', '', Rev: 1, Len: 52
-54:704  0:000    11. 76AB1B38: 'DBG2', '', Rev: 0, Len: 84
-54:704  0:000    12. 76AB1B90: 'SSDT', 'DptfTabl', Rev: 2, Len: 15721
-54:704  0:000    13. 76AB5900: 'SSDT', 'SaSsdt', Rev: 2, Len: 26245
-54:704  0:000    14. 76ABBF88: 'UEFI', '', Rev: 1, Len: 66
-54:704  0:000    15. 76ABBFD0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3672
-54:704  0:000    16. 76ABCE28: 'BGRT', 'Notebook', Rev: 1, Len: 56
-54:704  0:000    17. 76ABCE60: 'SSDT', 'SgPeg', Rev: 2, Len: 165
-54:704  0:000    18. 76ABCF08: 'DMAR', 'SKL', Rev: 1, Len: 240
-54:704  0:000    19. 76ABCFF8: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
-54:704  0:000    20. 76ABD030: 'SSDT', 'OptTabl', Rev: 1, Len: 6719
-54:704  0:000    21. 76102F18: 'MSDM', 'Notebook', Rev: 3, Len: 85
-54:704  0:000    Tables in Rsdt: 22
-54:704  0:000    0. 76A8B188: 'FACP', 'Notebook', Rev: 2, Len: 132
-54:704  0:000        (Dsdt: 76A8B210, Facs: 77325F40)
-54:704  0:000        76A8B210: 'DSDT', 'Notebook', Rev: 2, Len: 155390
-54:706  0:002        77325F40: 'FACS', Ver: 0, Len: 64
-54:706  0:000    1. 76AB1220: 'APIC', 'Notebook', Rev: 3, Len: 188
-54:706  0:000    2. 76AB12E0: 'FPDT', 'Notebook', Rev: 1, Len: 68
-54:706  0:000    3. 76AB1328: 'FIDT', 'Notebook', Rev: 1, Len: 156
-54:706  0:000    4. 76AB13C8: 'MCFG', 'Notebook', Rev: 1, Len: 60
-54:706  0:000    5. 76AB1408: 'HPET', 'Notebook', Rev: 1, Len: 56
-54:706  0:000    6. 76AB1440: 'SSDT', 'SataTabl', Rev: 1, Len: 789
-54:706  0:000    7. 76AB1758: 'ECDT', 'Notebook', Rev: 1, Len: 193
-54:706  0:000    8. 76AB1820: 'LPIT', 'SKL', Rev: 1, Len: 148
-54:706  0:000    9. 76AB18B8: 'SSDT', 'sensrhub', Rev: 2, Len: 584
-54:706  0:000    10. 76AB1B00: 'DBGP', '', Rev: 1, Len: 52
-54:706  0:000    11. 76AB1B38: 'DBG2', '', Rev: 0, Len: 84
-54:706  0:000    12. 76AB1B90: 'SSDT', 'DptfTabl', Rev: 2, Len: 15721
-54:706  0:000    13. 76AB5900: 'SSDT', 'SaSsdt', Rev: 2, Len: 26245
-54:706  0:000    14. 76ABBF88: 'UEFI', '', Rev: 1, Len: 66
-54:706  0:000    15. 76ABBFD0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3672
-54:706  0:000    16. 76ABCE28: 'BGRT', 'Notebook', Rev: 1, Len: 56
-54:706  0:000    17. 76ABCE60: 'SSDT', 'SgPeg', Rev: 2, Len: 165
-54:706  0:000    18. 76ABCF08: 'DMAR', 'SKL', Rev: 1, Len: 240
-54:706  0:000    19. 76ABCFF8: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
-54:706  0:000    20. 76ABD030: 'SSDT', 'OptTabl', Rev: 1, Len: 6719
-54:706  0:000    21. 76102F18: 'MSDM', 'Notebook', Rev: 3, Len: 85
-54:706  0:000  Found UEFI Acpi 2.0 RSDP at 76A8B000
-54:706  0:000  Saving ACPI tables from RSDP 76A8B000 to EFI\CLOVER\ACPI\origin ...
-54:706  0:000   76A8B000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
-54:706  0:000    (Xsdt: 76A8B0A8, Rsdt: 76A8B028)
-54:706  0:000    76A8B0A8: 'XSDT', 'Notebook', Rev: 1, Len: 212
-54:706  0:000    76A8B028: 'RSDT', 'Notebook', Rev: 1, Len: 124
-54:706  0:000    Tables in Xsdt: 22
-54:706  0:000    0. 76AB1110: 'FACP', 'Notebook', Rev: 5, Len: 268
-54:706  0:000        (Dsdt: 76A8B210, Facs: 77325F80, XDsdt: 76A8B210, XFacs: 0)
-54:706  0:000        76A8B210: 'DSDT', 'Notebook', Rev: 2, Len: 155390
-54:708  0:002        77325F80: 'FACS', Ver: 2, Len: 64
-54:708  0:000    1. 76AB1220: 'APIC', 'Notebook', Rev: 3, Len: 188
-54:708  0:000    2. 76AB12E0: 'FPDT', 'Notebook', Rev: 1, Len: 68
-54:708  0:000    3. 76AB1328: 'FIDT', 'Notebook', Rev: 1, Len: 156
-54:708  0:000    4. 76AB13C8: 'MCFG', 'Notebook', Rev: 1, Len: 60
-54:708  0:000    5. 76AB1408: 'HPET', 'Notebook', Rev: 1, Len: 56
-54:708  0:000    6. 76AB1440: 'SSDT', 'SataTabl', Rev: 1, Len: 789
-54:708  0:000    7. 76AB1758: 'ECDT', 'Notebook', Rev: 1, Len: 193
-54:708  0:000    8. 76AB1820: 'LPIT', 'SKL', Rev: 1, Len: 148
-54:708  0:000    9. 76AB18B8: 'SSDT', 'sensrhub', Rev: 2, Len: 584
-54:708  0:000    10. 76AB1B00: 'DBGP', '', Rev: 1, Len: 52
-54:708  0:000    11. 76AB1B38: 'DBG2', '', Rev: 0, Len: 84
-54:708  0:000    12. 76AB1B90: 'SSDT', 'DptfTabl', Rev: 2, Len: 15721
-54:708  0:000    13. 76AB5900: 'SSDT', 'SaSsdt', Rev: 2, Len: 26245
-54:708  0:000    14. 76ABBF88: 'UEFI', '', Rev: 1, Len: 66
-54:708  0:000    15. 76ABBFD0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3672
-54:708  0:000    16. 76ABCE28: 'BGRT', 'Notebook', Rev: 1, Len: 56
-54:708  0:000    17. 76ABCE60: 'SSDT', 'SgPeg', Rev: 2, Len: 165
-54:708  0:000    18. 76ABCF08: 'DMAR', 'SKL', Rev: 1, Len: 240
-54:708  0:000    19. 76ABCFF8: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
-54:708  0:000    20. 76ABD030: 'SSDT', 'OptTabl', Rev: 1, Len: 6719
-54:708  0:000    21. 76102F18: 'MSDM', 'Notebook', Rev: 3, Len: 85
-54:708  0:000    Tables in Rsdt: 22
-54:708  0:000    0. 76A8B188: 'FACP', 'Notebook', Rev: 2, Len: 132
-54:708  0:000        (Dsdt: 76A8B210, Facs: 77325F40)
-54:708  0:000        76A8B210: 'DSDT', 'Notebook', Rev: 2, Len: 155390
-54:710  0:002        77325F40: 'FACS', Ver: 0, Len: 64
-54:710  0:000    1. 76AB1220: 'APIC', 'Notebook', Rev: 3, Len: 188
-54:710  0:000    2. 76AB12E0: 'FPDT', 'Notebook', Rev: 1, Len: 68
-54:710  0:000    3. 76AB1328: 'FIDT', 'Notebook', Rev: 1, Len: 156
-54:710  0:000    4. 76AB13C8: 'MCFG', 'Notebook', Rev: 1, Len: 60
-54:710  0:000    5. 76AB1408: 'HPET', 'Notebook', Rev: 1, Len: 56
-54:710  0:000    6. 76AB1440: 'SSDT', 'SataTabl', Rev: 1, Len: 789
-54:710  0:000    7. 76AB1758: 'ECDT', 'Notebook', Rev: 1, Len: 193
-54:710  0:000    8. 76AB1820: 'LPIT', 'SKL', Rev: 1, Len: 148
-54:710  0:000    9. 76AB18B8: 'SSDT', 'sensrhub', Rev: 2, Len: 584
-54:710  0:000    10. 76AB1B00: 'DBGP', '', Rev: 1, Len: 52
-54:710  0:000    11. 76AB1B38: 'DBG2', '', Rev: 0, Len: 84
-54:710  0:000    12. 76AB1B90: 'SSDT', 'DptfTabl', Rev: 2, Len: 15721
-54:710  0:000    13. 76AB5900: 'SSDT', 'SaSsdt', Rev: 2, Len: 26245
-54:710  0:000    14. 76ABBF88: 'UEFI', '', Rev: 1, Len: 66
-54:710  0:000    15. 76ABBFD0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3672
-54:710  0:000    16. 76ABCE28: 'BGRT', 'Notebook', Rev: 1, Len: 56
-54:710  0:000    17. 76ABCE60: 'SSDT', 'SgPeg', Rev: 2, Len: 165
-54:710  0:000    18. 76ABCF08: 'DMAR', 'SKL', Rev: 1, Len: 240
-54:710  0:000    19. 76ABCFF8: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
-54:710  0:000    20. 76ABD030: 'SSDT', 'OptTabl', Rev: 1, Len: 6719
-54:710  0:000    21. 76102F18: 'MSDM', 'Notebook', Rev: 3, Len: 85
-54:710  0:000  Found UEFI Acpi 1.0 RSDP at 76A8B000
-54:710  0:000  Printing ACPI tables from RSDP 76A8B000 ...
-54:710  0:000   76A8B000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
-54:710  0:000    (Xsdt: 76A8B0A8, Rsdt: 76A8B028)
-54:710  0:000    76A8B0A8: 'XSDT', 'Notebook', Rev: 1, Len: 212
-54:710  0:000    76A8B028: 'RSDT', 'Notebook', Rev: 1, Len: 124
-54:710  0:000    Tables in Xsdt: 22
-54:710  0:000    0. 76AB1110: 'FACP', 'Notebook', Rev: 5, Len: 268
-54:710  0:000        (Dsdt: 76A8B210, Facs: 77325F80, XDsdt: 76A8B210, XFacs: 0)
-54:710  0:000        76A8B210: 'DSDT', 'Notebook', Rev: 2, Len: 155390
-54:712  0:002        77325F80: 'FACS', Ver: 2, Len: 64
-54:712  0:000    1. 76AB1220: 'APIC', 'Notebook', Rev: 3, Len: 188
-54:712  0:000    2. 76AB12E0: 'FPDT', 'Notebook', Rev: 1, Len: 68
-54:712  0:000    3. 76AB1328: 'FIDT', 'Notebook', Rev: 1, Len: 156
-54:712  0:000    4. 76AB13C8: 'MCFG', 'Notebook', Rev: 1, Len: 60
-54:712  0:000    5. 76AB1408: 'HPET', 'Notebook', Rev: 1, Len: 56
-54:712  0:000    6. 76AB1440: 'SSDT', 'SataTabl', Rev: 1, Len: 789
-54:712  0:000    7. 76AB1758: 'ECDT', 'Notebook', Rev: 1, Len: 193
-54:712  0:000    8. 76AB1820: 'LPIT', 'SKL', Rev: 1, Len: 148
-54:712  0:000    9. 76AB18B8: 'SSDT', 'sensrhub', Rev: 2, Len: 584
-54:712  0:000    10. 76AB1B00: 'DBGP', '', Rev: 1, Len: 52
-54:712  0:000    11. 76AB1B38: 'DBG2', '', Rev: 0, Len: 84
-54:712  0:000    12. 76AB1B90: 'SSDT', 'DptfTabl', Rev: 2, Len: 15721
-54:712  0:000    13. 76AB5900: 'SSDT', 'SaSsdt', Rev: 2, Len: 26245
-54:712  0:000    14. 76ABBF88: 'UEFI', '', Rev: 1, Len: 66
-54:712  0:000    15. 76ABBFD0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3672
-54:712  0:000    16. 76ABCE28: 'BGRT', 'Notebook', Rev: 1, Len: 56
-54:712  0:000    17. 76ABCE60: 'SSDT', 'SgPeg', Rev: 2, Len: 165
-54:712  0:000    18. 76ABCF08: 'DMAR', 'SKL', Rev: 1, Len: 240
-54:712  0:000    19. 76ABCFF8: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
-54:712  0:000    20. 76ABD030: 'SSDT', 'OptTabl', Rev: 1, Len: 6719
-54:712  0:000    21. 76102F18: 'MSDM', 'Notebook', Rev: 3, Len: 85
-54:712  0:000    Tables in Rsdt: 22
-54:712  0:000    0. 76A8B188: 'FACP', 'Notebook', Rev: 2, Len: 132
-54:712  0:000        (Dsdt: 76A8B210, Facs: 77325F40)
-54:712  0:000        76A8B210: 'DSDT', 'Notebook', Rev: 2, Len: 155390
-54:714  0:002        77325F40: 'FACS', Ver: 0, Len: 64
-54:714  0:000    1. 76AB1220: 'APIC', 'Notebook', Rev: 3, Len: 188
-54:714  0:000    2. 76AB12E0: 'FPDT', 'Notebook', Rev: 1, Len: 68
-54:714  0:000    3. 76AB1328: 'FIDT', 'Notebook', Rev: 1, Len: 156
-54:714  0:000    4. 76AB13C8: 'MCFG', 'Notebook', Rev: 1, Len: 60
-54:714  0:000    5. 76AB1408: 'HPET', 'Notebook', Rev: 1, Len: 56
-54:714  0:000    6. 76AB1440: 'SSDT', 'SataTabl', Rev: 1, Len: 789
-54:714  0:000    7. 76AB1758: 'ECDT', 'Notebook', Rev: 1, Len: 193
-54:714  0:000    8. 76AB1820: 'LPIT', 'SKL', Rev: 1, Len: 148
-54:714  0:000    9. 76AB18B8: 'SSDT', 'sensrhub', Rev: 2, Len: 584
-54:714  0:000    10. 76AB1B00: 'DBGP', '', Rev: 1, Len: 52
-54:715  0:000    11. 76AB1B38: 'DBG2', '', Rev: 0, Len: 84
-54:715  0:000    12. 76AB1B90: 'SSDT', 'DptfTabl', Rev: 2, Len: 15721
-54:715  0:000    13. 76AB5900: 'SSDT', 'SaSsdt', Rev: 2, Len: 26245
-54:715  0:000    14. 76ABBF88: 'UEFI', '', Rev: 1, Len: 66
-54:715  0:000    15. 76ABBFD0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3672
-54:715  0:000    16. 76ABCE28: 'BGRT', 'Notebook', Rev: 1, Len: 56
-54:715  0:000    17. 76ABCE60: 'SSDT', 'SgPeg', Rev: 2, Len: 165
-54:715  0:000    18. 76ABCF08: 'DMAR', 'SKL', Rev: 1, Len: 240
-54:715  0:000    19. 76ABCFF8: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
-54:715  0:000    20. 76ABD030: 'SSDT', 'OptTabl', Rev: 1, Len: 6719
-54:715  0:000    21. 76102F18: 'MSDM', 'Notebook', Rev: 3, Len: 85
+94:388  1:118  Found BIOS RSDP at F0070
+94:388  0:000  Printing ACPI tables from RSDP F0070 ...
+94:388  0:000   F0070: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+94:388  0:000    (Xsdt: 76A8B0A8, Rsdt: 76A8B028)
+94:388  0:000    76A8B0A8: 'XSDT', 'Notebook', Rev: 1, Len: 212
+94:388  0:000    76A8B028: 'RSDT', 'Notebook', Rev: 1, Len: 124
+94:388  0:000    Tables in Xsdt: 22
+94:388  0:000    0. 76AB1110: 'FACP', 'Notebook', Rev: 5, Len: 268
+94:388  0:000        (Dsdt: 76A8B210, Facs: 77325F80, XDsdt: 76A8B210, XFacs: 0)
+94:388  0:000        76A8B210: 'DSDT', 'Notebook', Rev: 2, Len: 155390
+94:391  0:002        77325F80: 'FACS', Ver: 2, Len: 64
+94:391  0:000    1. 76AB1220: 'APIC', 'Notebook', Rev: 3, Len: 188
+94:391  0:000    2. 76AB12E0: 'FPDT', 'Notebook', Rev: 1, Len: 68
+94:391  0:000    3. 76AB1328: 'FIDT', 'Notebook', Rev: 1, Len: 156
+94:391  0:000    4. 76AB13C8: 'MCFG', 'Notebook', Rev: 1, Len: 60
+94:391  0:000    5. 76AB1408: 'HPET', 'Notebook', Rev: 1, Len: 56
+94:391  0:000    6. 76AB1440: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+94:391  0:000    7. 76AB1758: 'ECDT', 'Notebook', Rev: 1, Len: 193
+94:391  0:000    8. 76AB1820: 'LPIT', 'SKL', Rev: 1, Len: 148
+94:391  0:000    9. 76AB18B8: 'SSDT', 'sensrhub', Rev: 2, Len: 584
+94:391  0:000    10. 76AB1B00: 'DBGP', '', Rev: 1, Len: 52
+94:391  0:000    11. 76AB1B38: 'DBG2', '', Rev: 0, Len: 84
+94:391  0:000    12. 76AB1B90: 'SSDT', 'DptfTabl', Rev: 2, Len: 15721
+94:391  0:000    13. 76AB5900: 'SSDT', 'SaSsdt', Rev: 2, Len: 26245
+94:391  0:000    14. 76ABBF88: 'UEFI', '', Rev: 1, Len: 66
+94:391  0:000    15. 76ABBFD0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3672
+94:391  0:000    16. 76ABCE28: 'BGRT', 'Notebook', Rev: 1, Len: 56
+94:391  0:000    17. 76ABCE60: 'SSDT', 'SgPeg', Rev: 2, Len: 165
+94:391  0:000    18. 76ABCF08: 'DMAR', 'SKL', Rev: 1, Len: 240
+94:391  0:000    19. 76ABCFF8: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
+94:391  0:000    20. 76ABD030: 'SSDT', 'OptTabl', Rev: 1, Len: 6719
+94:391  0:000    21. 76102F18: 'MSDM', 'Notebook', Rev: 3, Len: 85
+94:391  0:000    Tables in Rsdt: 22
+94:391  0:000    0. 76A8B188: 'FACP', 'Notebook', Rev: 2, Len: 132
+94:391  0:000        (Dsdt: 76A8B210, Facs: 77325F40)
+94:391  0:000        76A8B210: 'DSDT', 'Notebook', Rev: 2, Len: 155390
+94:393  0:002        77325F40: 'FACS', Ver: 0, Len: 64
+94:393  0:000    1. 76AB1220: 'APIC', 'Notebook', Rev: 3, Len: 188
+94:393  0:000    2. 76AB12E0: 'FPDT', 'Notebook', Rev: 1, Len: 68
+94:393  0:000    3. 76AB1328: 'FIDT', 'Notebook', Rev: 1, Len: 156
+94:393  0:000    4. 76AB13C8: 'MCFG', 'Notebook', Rev: 1, Len: 60
+94:393  0:000    5. 76AB1408: 'HPET', 'Notebook', Rev: 1, Len: 56
+94:393  0:000    6. 76AB1440: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+94:393  0:000    7. 76AB1758: 'ECDT', 'Notebook', Rev: 1, Len: 193
+94:393  0:000    8. 76AB1820: 'LPIT', 'SKL', Rev: 1, Len: 148
+94:393  0:000    9. 76AB18B8: 'SSDT', 'sensrhub', Rev: 2, Len: 584
+94:393  0:000    10. 76AB1B00: 'DBGP', '', Rev: 1, Len: 52
+94:393  0:000    11. 76AB1B38: 'DBG2', '', Rev: 0, Len: 84
+94:393  0:000    12. 76AB1B90: 'SSDT', 'DptfTabl', Rev: 2, Len: 15721
+94:393  0:000    13. 76AB5900: 'SSDT', 'SaSsdt', Rev: 2, Len: 26245
+94:393  0:000    14. 76ABBF88: 'UEFI', '', Rev: 1, Len: 66
+94:393  0:000    15. 76ABBFD0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3672
+94:393  0:000    16. 76ABCE28: 'BGRT', 'Notebook', Rev: 1, Len: 56
+94:393  0:000    17. 76ABCE60: 'SSDT', 'SgPeg', Rev: 2, Len: 165
+94:393  0:000    18. 76ABCF08: 'DMAR', 'SKL', Rev: 1, Len: 240
+94:393  0:000    19. 76ABCFF8: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
+94:393  0:000    20. 76ABD030: 'SSDT', 'OptTabl', Rev: 1, Len: 6719
+94:393  0:000    21. 76102F18: 'MSDM', 'Notebook', Rev: 3, Len: 85
+94:393  0:000  Found UEFI Acpi 2.0 RSDP at 76A8B000
+94:393  0:000  Saving ACPI tables from RSDP 76A8B000 to EFI\CLOVER\ACPI\origin ...
+94:393  0:000   76A8B000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+94:705  0:311    (Xsdt: 76A8B0A8, Rsdt: 76A8B028)
+94:705  0:000    76A8B0A8: 'XSDT', 'Notebook', Rev: 1, Len: 212 -> XSDT.aml
+94:715  0:009    76A8B028: 'RSDT', 'Notebook', Rev: 1, Len: 124 -> RSDT.aml
+94:724  0:009    Tables in Xsdt: 22
+94:724  0:000    0. 76AB1110: 'FACP', 'Notebook', Rev: 5, Len: 268 -> FACP.aml
+94:735  0:010        (Dsdt: 76A8B210, Facs: 77325F80, XDsdt: 76A8B210, XFacs: 0)
+94:735  0:000        76A8B210: 'DSDT', 'Notebook', Rev: 2, Len: 155390 -> DSDT.aml
+94:833  0:098        77325F80: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+94:842  0:009    1. 76AB1220: 'APIC', 'Notebook', Rev: 3, Len: 188 -> APIC.aml
+94:852  0:009    2. 76AB12E0: 'FPDT', 'Notebook', Rev: 1, Len: 68 -> FPDT.aml
+94:862  0:009    3. 76AB1328: 'FIDT', 'Notebook', Rev: 1, Len: 156 -> FIDT.aml
+94:871  0:009    4. 76AB13C8: 'MCFG', 'Notebook', Rev: 1, Len: 60 -> MCFG.aml
+94:881  0:010    5. 76AB1408: 'HPET', 'Notebook', Rev: 1, Len: 56 -> HPET.aml
+94:891  0:009    6. 76AB1440: 'SSDT', 'SataTabl', Rev: 1, Len: 789 -> SSDT-0-SataTabl.aml
+94:912  0:021    7. 76AB1758: 'ECDT', 'Notebook', Rev: 1, Len: 193 -> ECDT.aml
+94:921  0:008    8. 76AB1820: 'LPIT', 'SKL', Rev: 1, Len: 148 -> LPIT.aml
+94:931  0:009    9. 76AB18B8: 'SSDT', 'sensrhub', Rev: 2, Len: 584 -> SSDT-1-sensrhub.aml
+94:940  0:009    10. 76AB1B00: 'DBGP', '', Rev: 1, Len: 52 -> DBGP.aml
+94:949  0:008    11. 76AB1B38: 'DBG2', '', Rev: 0, Len: 84 -> DBG2.aml
+94:958  0:009    12. 76AB1B90: 'SSDT', 'DptfTabl', Rev: 2, Len: 15721 -> SSDT-2-DptfTabl.aml
+94:967  0:009    13. 76AB5900: 'SSDT', 'SaSsdt', Rev: 2, Len: 26245 -> SSDT-3-SaSsdt.aml
+94:979  0:011    14. 76ABBF88: 'UEFI', '', Rev: 1, Len: 66 -> UEFI.aml
+94:987  0:008    15. 76ABBFD0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3672 -> SSDT-4-CpuSsdt.aml (Found hidden SSDT 7 pcs)
+95:000  0:012        * 75AFC698: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1500  53 53 44 54 DC 05 00 00 02 EF 50 6D 52 65 66 00 Internal length = 1500 -> SSDT-x4_0-Cpu0Ist.aml
+95:009  0:009        * 75AFB618: 'SSDT', 'ApIst', Rev: 2, Len: 1450  53 53 44 54 AA 05 00 00 02 CE 50 6D 52 65 66 00 Internal length = 1450 -> SSDT-x4_1-ApIst.aml
+95:019  0:009        * 75AFBC18: 'SSDT', 'Cpu0Cst', Rev: 2, Len: 895  53 53 44 54 7F 03 00 00 02 65 50 6D 52 65 66 00 Internal length = 895 -> SSDT-x4_2-Cpu0Cst.aml
+95:028  0:009        * 760DEA98: 'SSDT', 'ApCst', Rev: 2, Len: 281  53 53 44 54 19 01 00 00 02 EA 50 6D 52 65 66 00 Internal length = 281 -> SSDT-x4_3-ApCst.aml
+95:038  0:009        * 760DEF18: 'SSDT', 'Cpu0Hwp', Rev: 2, Len: 142  53 53 44 54 8E 00 00 00 02 2B 50 6D 52 65 66 00 Internal length = 142 -> SSDT-x4_4-Cpu0Hwp.aml
+95:063  0:025        * 760DE918: 'SSDT', 'ApHwp', Rev: 2, Len: 281  53 53 44 54 19 01 00 00 02 FD 50 6D 52 65 66 00 Internal length = 281 -> SSDT-x4_5-ApHwp.aml
+95:072  0:008        * 760DEC18: 'SSDT', 'HwpLvt', Rev: 2, Len: 304  53 53 44 54 30 01 00 00 02 85 50 6D 52 65 66 00 Internal length = 304 -> SSDT-x4_6-HwpLvt.aml
+95:081  0:008  
+95:081  0:000    16. 76ABCE28: 'BGRT', 'Notebook', Rev: 1, Len: 56 -> BGRT.aml
+95:090  0:009    17. 76ABCE60: 'SSDT', 'SgPeg', Rev: 2, Len: 165 -> SSDT-5-SgPeg.aml
+95:099  0:009    18. 76ABCF08: 'DMAR', 'SKL', Rev: 1, Len: 240 -> DMAR.aml
+95:108  0:008    19. 76ABCFF8: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52 -> TPM2.aml
+95:118  0:010    20. 76ABD030: 'SSDT', 'OptTabl', Rev: 1, Len: 6719 -> SSDT-6-OptTabl.aml
+95:130  0:011    21. 76102F18: 'MSDM', 'Notebook', Rev: 3, Len: 85 -> MSDM.aml
+95:141  0:011    Tables in Rsdt: 22
+95:141  0:000    0. 76A8B188: 'FACP', 'Notebook', Rev: 2, Len: 132 -> RSDT-FACP.aml
+95:150  0:009        (Dsdt: 76A8B210, Facs: 77325F40)
+95:150  0:000        76A8B210: 'DSDT', 'Notebook', Rev: 2, Len: 155390
+95:153  0:002        77325F40: 'FACS', Ver: 0, Len: 64 -> RSDT-FACS.aml
+95:162  0:009    1. 76AB1220: 'APIC', 'Notebook', Rev: 3, Len: 188
+95:162  0:000    2. 76AB12E0: 'FPDT', 'Notebook', Rev: 1, Len: 68
+95:162  0:000    3. 76AB1328: 'FIDT', 'Notebook', Rev: 1, Len: 156
+95:162  0:000    4. 76AB13C8: 'MCFG', 'Notebook', Rev: 1, Len: 60
+95:162  0:000    5. 76AB1408: 'HPET', 'Notebook', Rev: 1, Len: 56
+95:162  0:000    6. 76AB1440: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+95:162  0:000    7. 76AB1758: 'ECDT', 'Notebook', Rev: 1, Len: 193
+95:162  0:000    8. 76AB1820: 'LPIT', 'SKL', Rev: 1, Len: 148
+95:162  0:000    9. 76AB18B8: 'SSDT', 'sensrhub', Rev: 2, Len: 584
+95:162  0:000    10. 76AB1B00: 'DBGP', '', Rev: 1, Len: 52
+95:162  0:000    11. 76AB1B38: 'DBG2', '', Rev: 0, Len: 84
+95:162  0:000    12. 76AB1B90: 'SSDT', 'DptfTabl', Rev: 2, Len: 15721
+95:162  0:000    13. 76AB5900: 'SSDT', 'SaSsdt', Rev: 2, Len: 26245
+95:162  0:000    14. 76ABBF88: 'UEFI', '', Rev: 1, Len: 66
+95:162  0:000    15. 76ABBFD0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3672
+95:162  0:000    16. 76ABCE28: 'BGRT', 'Notebook', Rev: 1, Len: 56
+95:162  0:000    17. 76ABCE60: 'SSDT', 'SgPeg', Rev: 2, Len: 165
+95:162  0:000    18. 76ABCF08: 'DMAR', 'SKL', Rev: 1, Len: 240
+95:162  0:000    19. 76ABCFF8: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
+95:162  0:000    20. 76ABD030: 'SSDT', 'OptTabl', Rev: 1, Len: 6719
+95:162  0:000    21. 76102F18: 'MSDM', 'Notebook', Rev: 3, Len: 85
+95:162  0:000  Found UEFI Acpi 1.0 RSDP at 76A8B000
+95:162  0:000  Printing ACPI tables from RSDP 76A8B000 ...
+95:162  0:000   76A8B000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+95:162  0:000    (Xsdt: 76A8B0A8, Rsdt: 76A8B028)
+95:162  0:000    76A8B0A8: 'XSDT', 'Notebook', Rev: 1, Len: 212
+95:162  0:000    76A8B028: 'RSDT', 'Notebook', Rev: 1, Len: 124
+95:162  0:000    Tables in Xsdt: 22
+95:162  0:000    0. 76AB1110: 'FACP', 'Notebook', Rev: 5, Len: 268
+95:162  0:000        (Dsdt: 76A8B210, Facs: 77325F80, XDsdt: 76A8B210, XFacs: 0)
+95:162  0:000        76A8B210: 'DSDT', 'Notebook', Rev: 2, Len: 155390
+95:165  0:002        77325F80: 'FACS', Ver: 2, Len: 64
+95:165  0:000    1. 76AB1220: 'APIC', 'Notebook', Rev: 3, Len: 188
+95:165  0:000    2. 76AB12E0: 'FPDT', 'Notebook', Rev: 1, Len: 68
+95:165  0:000    3. 76AB1328: 'FIDT', 'Notebook', Rev: 1, Len: 156
+95:165  0:000    4. 76AB13C8: 'MCFG', 'Notebook', Rev: 1, Len: 60
+95:165  0:000    5. 76AB1408: 'HPET', 'Notebook', Rev: 1, Len: 56
+95:165  0:000    6. 76AB1440: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+95:165  0:000    7. 76AB1758: 'ECDT', 'Notebook', Rev: 1, Len: 193
+95:165  0:000    8. 76AB1820: 'LPIT', 'SKL', Rev: 1, Len: 148
+95:165  0:000    9. 76AB18B8: 'SSDT', 'sensrhub', Rev: 2, Len: 584
+95:165  0:000    10. 76AB1B00: 'DBGP', '', Rev: 1, Len: 52
+95:165  0:000    11. 76AB1B38: 'DBG2', '', Rev: 0, Len: 84
+95:165  0:000    12. 76AB1B90: 'SSDT', 'DptfTabl', Rev: 2, Len: 15721
+95:165  0:000    13. 76AB5900: 'SSDT', 'SaSsdt', Rev: 2, Len: 26245
+95:165  0:000    14. 76ABBF88: 'UEFI', '', Rev: 1, Len: 66
+95:165  0:000    15. 76ABBFD0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3672
+95:165  0:000    16. 76ABCE28: 'BGRT', 'Notebook', Rev: 1, Len: 56
+95:165  0:000    17. 76ABCE60: 'SSDT', 'SgPeg', Rev: 2, Len: 165
+95:165  0:000    18. 76ABCF08: 'DMAR', 'SKL', Rev: 1, Len: 240
+95:165  0:000    19. 76ABCFF8: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
+95:165  0:000    20. 76ABD030: 'SSDT', 'OptTabl', Rev: 1, Len: 6719
+95:165  0:000    21. 76102F18: 'MSDM', 'Notebook', Rev: 3, Len: 85
+95:165  0:000    Tables in Rsdt: 22
+95:165  0:000    0. 76A8B188: 'FACP', 'Notebook', Rev: 2, Len: 132
+95:165  0:000        (Dsdt: 76A8B210, Facs: 77325F40)
+95:165  0:000        76A8B210: 'DSDT', 'Notebook', Rev: 2, Len: 155390
+95:167  0:002        77325F40: 'FACS', Ver: 0, Len: 64
+95:167  0:000    1. 76AB1220: 'APIC', 'Notebook', Rev: 3, Len: 188
+95:167  0:000    2. 76AB12E0: 'FPDT', 'Notebook', Rev: 1, Len: 68
+95:167  0:000    3. 76AB1328: 'FIDT', 'Notebook', Rev: 1, Len: 156
+95:167  0:000    4. 76AB13C8: 'MCFG', 'Notebook', Rev: 1, Len: 60
+95:167  0:000    5. 76AB1408: 'HPET', 'Notebook', Rev: 1, Len: 56
+95:167  0:000    6. 76AB1440: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+95:167  0:000    7. 76AB1758: 'ECDT', 'Notebook', Rev: 1, Len: 193
+95:167  0:000    8. 76AB1820: 'LPIT', 'SKL', Rev: 1, Len: 148
+95:167  0:000    9. 76AB18B8: 'SSDT', 'sensrhub', Rev: 2, Len: 584
+95:167  0:000    10. 76AB1B00: 'DBGP', '', Rev: 1, Len: 52
+95:167  0:000    11. 76AB1B38: 'DBG2', '', Rev: 0, Len: 84
+95:167  0:000    12. 76AB1B90: 'SSDT', 'DptfTabl', Rev: 2, Len: 15721
+95:167  0:000    13. 76AB5900: 'SSDT', 'SaSsdt', Rev: 2, Len: 26245
+95:167  0:000    14. 76ABBF88: 'UEFI', '', Rev: 1, Len: 66
+95:167  0:000    15. 76ABBFD0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3672
+95:167  0:000    16. 76ABCE28: 'BGRT', 'Notebook', Rev: 1, Len: 56
+95:167  0:000    17. 76ABCE60: 'SSDT', 'SgPeg', Rev: 2, Len: 165
+95:167  0:000    18. 76ABCF08: 'DMAR', 'SKL', Rev: 1, Len: 240
+95:167  0:000    19. 76ABCFF8: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
+95:167  0:000    20. 76ABD030: 'SSDT', 'OptTabl', Rev: 1, Len: 6719
+95:167  0:000    21. 76102F18: 'MSDM', 'Notebook', Rev: 3, Len: 85

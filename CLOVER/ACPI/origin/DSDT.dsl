@@ -5,7 +5,7 @@
  * 
  * Disassembling to non-symbolic legacy ASL operators
  *
- * Disassembly of DSDT.aml, Thu Jul 18 22:32:10 2019
+ * Disassembly of DSDT.aml, Sun Sep 15 23:16:16 2019
  *
  * Original Table Header:
  *     Signature        "DSDT"
